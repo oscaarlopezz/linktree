@@ -15,7 +15,7 @@
 }
 
 html {
-  font-size: 62.5%; /* 10px font size */
+  font-size: 62.5%;
 }
 
 body {
@@ -172,7 +172,6 @@ body {
 }
 
 .links-container li:active {
-  /* box-shadow: inset -.2rem .2rem 0 rgba(233, 72, 138, 1); */
   background-color: #e9488a;
 }
 
@@ -258,21 +257,21 @@ body {
 }
 
 
-/* Mobile Styles */
+/* Movil */
 @media only screen and (max-width: 400px) {
   body {
 
   }
 }
 
-/* Tablet Styles */
+/* Tablet */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   body {
 
   }
 }
 
-/* Desktop Styles */
+/* PC */
 @media only screen and (min-width: 961px) {
   html {
     font-size: 78%;
@@ -285,7 +284,6 @@ body {
       justify-content: center;
       wrap: nowrap;
       align-items: center;
-      /* border: 1px solid pink; */
     }
 
     .triangle {
@@ -297,7 +295,6 @@ body {
       justify-content: center;
       align-content: space-around;
       flex-wrap: wrap;
-      /* border: 1px solid green; */
       width: 50%;
       max-width: 55rem;
       height: 400px;
@@ -309,7 +306,6 @@ body {
 
     .header--box {
       order: 1;
-      /* border: 1px solid red; */
     }
 
     .header__chat-box {
@@ -332,7 +328,6 @@ body {
 
     .user-info-box {
       order: 2;
-      /* border: 1px solid purple; */
       justify-content: flex-start;
       align-items: flex-end;
       width: 20rem;
@@ -346,7 +341,6 @@ body {
       min-width: 40rem;
       max-width: 30.5rem;
       min-height: 400px;
-      /* border: 1px solid blue; */
       margin-top: 0;
     }
 
